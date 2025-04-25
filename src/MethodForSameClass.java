@@ -5,11 +5,18 @@ public class MethodForSameClass {
         MethodForSameClass.display(); //By using class name we can also access static methods
         MethodForSameClass obj = new MethodForSameClass(); // By create object calling non-static methods
         obj.print();
+//        static void displayy(){
+//            System.out.println("this is Display Static method"); //Direct calling Static method
+//
+//        }
+//        displayy()
+
 
     }
     static void display(){
         System.out.println("this is Display Static method");
         display2(); //Direct calling Static method
+
     }
 
     static void display2(){
