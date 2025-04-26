@@ -19,6 +19,7 @@ public class ComparisonOperator {
             System.out.println("n1 is greater than n2..!!");
         }
 
+        scanner.close();
     }
 
 }
