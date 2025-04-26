@@ -8,6 +8,7 @@ public class UnaryOperator {
         System.out.println("++number and number"+(++number)+" "+ number);
         System.out.println("--number and number"+(--number)+" "+ number);
         System.out.println("number-- and number"+(number--)+" "+ number);
+
     }
 
 }

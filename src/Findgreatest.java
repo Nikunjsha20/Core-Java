@@ -8,6 +8,8 @@ public class Findgreatest {
         int num2 = scanner.nextInt();
         int num3 = scanner.nextInt();
         greatest(num1,num2,num3);
+
+        scanner.close();
     }
     static void greatest(int n1, int n2, int n3){
         if (n1>n2) {

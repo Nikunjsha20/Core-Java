@@ -14,6 +14,8 @@ public class SimpleCalculator {
         multiplication(num1, num2);
         division(num1, num2);
         remainder(num1, num2);
+
+        scanner.close();
     }
     static void addition(int n1, int n2){
         System.out.println("sum: "+(n1+n2));

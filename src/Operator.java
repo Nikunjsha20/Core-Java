@@ -27,6 +27,7 @@ public class Operator {
         num %= 4;
         System.out.println("after using %= 4 operator value of num:"+ num);
 
+        scanner.close();
     }
 
 }

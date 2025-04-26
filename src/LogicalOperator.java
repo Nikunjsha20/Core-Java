@@ -41,6 +41,6 @@ public class LogicalOperator {
             System.out.println("You are a Student...!!");
         }
 
-
+        scanner.close();
     }
 }

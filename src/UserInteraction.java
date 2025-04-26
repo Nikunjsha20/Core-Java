@@ -18,5 +18,7 @@ public class UserInteraction {
         float num2 = scanner.nextFloat();
         System.out.println(num2);
 
+        scanner.close();
+
     }
 }
