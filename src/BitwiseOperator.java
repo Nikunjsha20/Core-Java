@@ -31,7 +31,7 @@ public class BitwiseOperator {
         System.out.println(leftshift);
         System.out.println(Integer.toBinaryString(leftshift));
         int b = -5;
-        int rightshift = b>>1;
+        int rightshift = b>>2;
         System.out.println(b);
         System.out.println(Integer.toBinaryString(b));
         System.out.println(rightshift);
