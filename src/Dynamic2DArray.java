@@ -17,11 +17,10 @@ public class Dynamic2DArray {
         int row = scanner.nextInt();
         int col = scanner.nextInt();
         while (row*col!= total){
-            if(row*col != total) {
                 System.out.println("Enter Right row and col");
                 row = scanner.nextInt();
                 col = scanner.nextInt();
-            }
+
 
 
         }
@@ -45,6 +44,7 @@ public class Dynamic2DArray {
             }
             System.out.println();
         }
+        scanner.close();
 
     }
 }

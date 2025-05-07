@@ -42,5 +42,6 @@ public class FindEvenOddArray {
         for(int i = 0; i<oddnum.length; i++){
             System.out.print(oddnum[i]+ " ");
         }
+        scanner.close();
     }
 }
